@@ -1,0 +1,154 @@
+/* color palet https://material.io/color/#!/?view.left=0&view.right=0&primary.color=3949AB */
+
+/* MAIN COLOR    =  #3949ab */
+/* DARKER COLOR  =  #00227b */
+/* LIGTHER COLOR =  #6f74dd */
+/* SMOOTH GRAY   =  #fafafa */
+
+/*DEFAULT CONFIGS*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cousine', monospace;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+
+/*NAV CSS*/
+nav{
+	position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3949ab;
+    border-bottom: 1px groove #ffffff;
+    display: block;
+}
+
+li {
+    float: right;
+}
+
+ul li:first-child{
+	margin-right: 4%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #6f74dd;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none !important;
+    color: #ffffff;
+}
+.active {
+    background-color: #00227b;
+}
+
+ul:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+/*PROFILE SECTION CSS*/
+.profile{
+	background-color: #3949ab;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.profile .avatar{
+	/*background-color: #00227b;	*/ 
+	min-height: 100vh;
+	position: relative;
+	border-right: 1px groove #ffffff;
+	/*border-bottom: 1px groove #ffffff;*/
+}
+
+.profile .relative-description{
+	/*background-color: #6f74dd;*/
+	min-height: 100vh;
+	position: relative;
+	/*border-bottom: 1px groove #ffffff;*/
+}
+
+.profile .relative-description .description{
+	display: table;
+	margin-top: 50%;
+	margin-bottom: 50%;
+}
+.profile .avatar #my-photo{
+	width: 50%;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.profile .description #text{
+	text-align: justify;
+	font-size: 15px;
+	margin-left: 30px;
+	margin-top: 6%;
+	margin-bottom: 6%;
+}
+
+.brackets{
+	margin-top: 2%;
+	font-size: 50px;	
+}
+
+
+.education{
+	background-color: #fafafa;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	min-height: 100vh;
+	color: #6f74dd;
+}
+
+.fav-langs{
+	background-color: #6f74dd;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	min-height: 100vh;
+}
+
+.hobbies{
+	background-color: #fafafa;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	min-height: 100vh;
+	color: #6f74dd;
+}
+
+.portifolio{
+	background-color: #6f74dd;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	min-height: 100vh;
+}
+
+.title{
+	text-align: center;
+	margin: 0 0;
+}
