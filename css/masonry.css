@@ -1,0 +1,45 @@
+* { box-sizing: border-box; }
+
+/* ---- grid ---- */
+.grid-sizer,
+.grid-item {
+  width: 20%;
+}
+.grid {
+  background: #6f74dd;
+  min-height: 70vh;
+  max-height: 70vh;
+  width: 100%;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  height: 25vh;
+  float: left;
+  background: white;
+  border: 2px solid #333;
+  border-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px;
+}
+
+.grid-item--height2 { height: 50vh; }
+
+
+.grid-item--gigante {
+  width: 40%;
+  height: 50vh;
+}
+
+.grid-item:hover {
+  background: white;
+  border-color: white;
+  cursor: pointer;
+}

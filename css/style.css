@@ -69,24 +69,20 @@ ul:after{
 
 /*PROFILE SECTION CSS*/
 .profile{
-	background-color: #3949ab;
+	background-color: #6f74dd;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
 .profile .avatar{
-	/*background-color: #00227b;	*/ 
 	min-height: 100vh;
 	position: relative;
 	border-right: 1px groove #ffffff;
-	/*border-bottom: 1px groove #ffffff;*/
 }
 
 .profile .relative-description{
-	/*background-color: #6f74dd;*/
 	min-height: 100vh;
 	position: relative;
-	/*border-bottom: 1px groove #ffffff;*/
 }
 
 .profile .relative-description .description{
@@ -102,6 +98,7 @@ ul:after{
 	left: 0;
 	right: 0;
 	bottom: 0;
+	border-radius: 30%;
 }
 
 .profile .description #text{
@@ -118,11 +115,10 @@ ul:after{
 }
 
 
-.education{
+.career{
 	background-color: #fafafa;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	min-height: 100vh;
 	color: #6f74dd;
 }
 
@@ -130,7 +126,11 @@ ul:after{
 	background-color: #6f74dd;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	min-height: 100vh;
+	min-height: 90vh;
+}
+
+.fav-langs .title{
+	margin-bottom: 50px;
 }
 
 .hobbies{
@@ -151,4 +151,28 @@ ul:after{
 .title{
 	text-align: center;
 	margin: 0 0;
+}
+
+.fa{
+	position: relative;
+}
+.fa .glyphicon{
+	position: center;
+	margin-left: 25%;
+	margin-top: 10%;
+}
+
+.career #image{
+	height: 100%; 
+	background-color: white;
+}
+
+.material-card{
+	margin-top: 50px;
+	display: block;
+	z-index: 2;
+}
+
+img #lang{
+	height: 100%; width: 100%; object-fit: contain;
 }
