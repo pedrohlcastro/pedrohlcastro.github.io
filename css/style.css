@@ -120,32 +120,24 @@ ul:after{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	color: #6f74dd;
+	min-height: 100vh;
 }
 
 .fav-langs{
 	background-color: #6f74dd;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	min-height: 90vh;
+	min-height: 100vh;
 }
 
 .fav-langs .title{
 	margin-bottom: 50px;
 }
 
-.hobbies{
+.portifolio{
 	background-color: #fafafa;
-	padding-top: 10px;
-	padding-bottom: 10px;
 	min-height: 100vh;
 	color: #6f74dd;
-}
-
-.portifolio{
-	background-color: #6f74dd;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	min-height: 100vh;
 }
 
 .title{
@@ -175,4 +167,8 @@ ul:after{
 
 img #lang{
 	height: 100%; width: 100%; object-fit: contain;
+}
+
+.portifolio .title{
+	margin-top: 15px;
 }

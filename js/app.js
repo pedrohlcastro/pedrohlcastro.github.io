@@ -34,6 +34,26 @@ angular.module("app",["duScroll"])
 					link: 'http://www.waycarbon.com/'
 				}]
 			},
+			{
+				title: 'Banco Inter',
+				subtitle: 'Process analyst',
+				img: 'img/inter.jpg',
+				text: 'Lorem...',
+				links: [{
+					icon: 'glyphicon-new-window',
+					link: 'http://www.waycarbon.com/'
+				}]
+			},
+			{
+				title: 'IBM',
+				subtitle: 'Developer Advocate',
+				img: 'img/ibm.jpg',
+				text: 'Lorem...',
+				links: [{
+					icon: 'glyphicon-new-window',
+					link: 'http://www.waycarbon.com/'
+				}]
+			},
 		];
 
 	}]);
